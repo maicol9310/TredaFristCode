@@ -1,0 +1,13 @@
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\bin\Debug\netcoreapp2.2\WebTredaApi.deps.json
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\bin\Debug\netcoreapp2.2\WebTredaApi.runtimeconfig.json
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\bin\Debug\netcoreapp2.2\WebTredaApi.runtimeconfig.dev.json
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\bin\Debug\netcoreapp2.2\WebTredaApi.dll
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.RazorAssemblyInfo.cache
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.RazorAssemblyInfo.cs
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.AssemblyInfoInputs.cache
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.AssemblyInfo.cs
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.RazorTargetAssemblyInfo.cache
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\bin\Debug\netcoreapp2.2\WebTredaApi.pdb
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.dll
+C:\Users\Oscar Pérez\source\repos\WebTredaApi\WebTredaApi\obj\Debug\netcoreapp2.2\WebTredaApi.pdb
