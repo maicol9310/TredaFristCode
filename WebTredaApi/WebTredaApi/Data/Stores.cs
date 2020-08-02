@@ -9,18 +9,11 @@ namespace WebTredaApi.Data
 {
     public class Stores
     {
-        public Stores()
-        {
-            Products = new HashSet<Products>();
-        }
-
         [Key]
         public int StoreId { get; set; }
         [Required]
         public string StoreName { get; set; }
         [Column(TypeName = "date")]
         public DateTime OpeningDate { get; set; }
-
-        public ICollection<Products> Products { get; set; }
     }
 }

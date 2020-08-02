@@ -10,8 +10,8 @@ using WebTredaApi.Data;
 namespace WebTredaApi.Migrations
 {
     [DbContext(typeof(TredaDbContext))]
-    [Migration("20200802044225_DBMT")]
-    partial class DBMT
+    [Migration("20200802180219_TredaMIG")]
+    partial class TredaMIG
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,13 +35,9 @@ namespace WebTredaApi.Migrations
 
                     b.Property<int>("Store");
 
-                    b.Property<int?>("StoreSStoreId");
-
                     b.Property<decimal>("Value");
 
                     b.HasKey("SKU");
-
-                    b.HasIndex("StoreSStoreId");
 
                     b.ToTable("Products");
                 });
@@ -61,13 +57,6 @@ namespace WebTredaApi.Migrations
                     b.HasKey("StoreId");
 
                     b.ToTable("Stores");
-                });
-
-            modelBuilder.Entity("WebTredaApi.Data.Products", b =>
-                {
-                    b.HasOne("WebTredaApi.Data.Stores", "StoreS")
-                        .WithMany("Products")
-                        .HasForeignKey("StoreSStoreId");
                 });
 #pragma warning restore 612, 618
         }

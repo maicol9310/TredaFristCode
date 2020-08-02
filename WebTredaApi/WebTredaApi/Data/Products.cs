@@ -18,7 +18,5 @@ namespace WebTredaApi.Data
         public int Store { get; set; }
         [Required]
         public string Base64Imagen { get; set; }
-
-        public Stores StoreS { get; set; }
     }
 }

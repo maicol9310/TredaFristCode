@@ -33,13 +33,9 @@ namespace WebTredaApi.Migrations
 
                     b.Property<int>("Store");
 
-                    b.Property<int?>("StoreSStoreId");
-
                     b.Property<decimal>("Value");
 
                     b.HasKey("SKU");
-
-                    b.HasIndex("StoreSStoreId");
 
                     b.ToTable("Products");
                 });
@@ -59,13 +55,6 @@ namespace WebTredaApi.Migrations
                     b.HasKey("StoreId");
 
                     b.ToTable("Stores");
-                });
-
-            modelBuilder.Entity("WebTredaApi.Data.Products", b =>
-                {
-                    b.HasOne("WebTredaApi.Data.Stores", "StoreS")
-                        .WithMany("Products")
-                        .HasForeignKey("StoreSStoreId");
                 });
 #pragma warning restore 612, 618
         }
